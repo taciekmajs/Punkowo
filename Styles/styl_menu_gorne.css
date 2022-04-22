@@ -1,0 +1,50 @@
+.logo, #nawigacja1, #nawigacja2, #nawigacja3, #nawigacja4
+{
+    
+    border-radius: 10vh;
+    background-color: #98A886;
+    margin: 5px 5px 5px 5px;
+}
+
+#nawigacja {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+}
+
+#nawigacja1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#nawigacja2 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#nawigacja3 {
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#nawigacja4 {
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#nawigacja1 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#nawigacja2 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#nawigacja3 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#nawigacja4 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
